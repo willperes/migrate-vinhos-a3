@@ -1,24 +1,27 @@
-# IntelliJ project files
-.idea
-*.iml
-out
-gen
+# Dependency directories
+node_modules/
 
-# VSCode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-!.vscode/*.code-snippets
+# Dotenv environment variables files
+.env
+.env.dev
+.env.prod
 
-# Local History for Visual Studio Code
-.history/
-
-# Built Visual Studio Code Extensions
-*.vsix
-
-# Folders
+# Build directories
 dist
 build
-node_modules
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# Optional npm cache directory
+.npm
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
